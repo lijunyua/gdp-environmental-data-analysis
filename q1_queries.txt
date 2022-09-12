@@ -1,0 +1,329 @@
+CREATE VIEW Q1CountryYear AS
+SELECT country, year
+FROM economics
+NATURAL INNER JOIN emission
+NATURAL INNER JOIN temperature;
+
+CREATE VIEW Q1Info AS
+SELECT DISTINCT *
+FROM Q1CountryYear
+NATURAL INNER JOIN economics
+NATURAL INNER JOIN emission
+NATURAL INNER JOIN temperature;
+
+CREATE VIEW Q1Maxgdp AS
+SELECT year, continent, MAX(gdppercapita) AS maxgdp
+FROM Q1Info
+GROUP BY year, continent
+Order by continent, year;
+
+CREATE VIEW Q1Maxgrowth AS
+SELECT year, continent, MAX(gdpgrowthpercapita) AS maxgrowth
+FROM Q1Info
+GROUP BY year, continent
+Order by continent, year;
+
+CREATE VIEW Q1Maxincome AS
+SELECT year, continent, MAX(incomepercapita) AS maxincome
+FROM Q1Info
+GROUP BY year, continent
+Order by continent, year;
+
+--- Query 1: Q1_1
+SELECT DISTINCT year, continent, MAX(maxgdp) AS maxgdp, SUM(amount) AS emission
+FROM Q1Maxgdp
+NATURAL INNER JOIN
+	(SELECT year, continent, gdppercapita AS maxgdp, amount FROM Q1info) AS Temp
+GROUP BY year, continent, maxgdp
+ORDER BY continent, year;
+
+year |   continent   | maxgdp | emission 
+------+---------------+--------+----------
+ 2008 | Africa        |  14383 |    27.51
+ 2009 | Africa        |  10275 |    28.23
+ 2010 | Africa        |  12065 |    28.76
+ 2011 | Africa        |   8007 |    327.4
+ 2012 | Africa        |  13025 |    28.61
+ 2013 | Africa        |  10364 |    30.55
+ 2008 | Asia          |  39339 |   563.02
+ 2009 | Asia          |  40855 |    520.5
+ 2010 | Asia          |  44508 |   556.41
+ 2011 | Asia          |  48168 |   609.42
+ 2012 | Asia          |  48603 |   658.48
+ 2013 | Asia          |  40454 |   679.14
+ 2008 | Europe        |  56153 |    19.58
+ 2009 | Europe        |  46947 |    19.46
+ 2010 | Europe        |  52869 |    21.97
+ 2011 | Europe        |  60756 |     19.3
+ 2012 | Europe        |  58038 |    18.41
+ 2013 | Europe        |  61127 |    17.88
+ 2008 | North America |  48383 |  3247.41
+ 2009 | North America |  47100 |  3008.27
+ 2010 | North America |  48468 |  3131.47
+ 2011 | North America |  52087 |   281.94
+ 2012 | North America |  52678 |   285.12
+ 2013 | North America |  53118 |  2885.76
+ 2008 | Oceania       |  49602 |   393.36
+ 2009 | Oceania       |  42772 |   408.91
+ 2010 | Oceania       |  52022 |   377.99
+ 2011 | Oceania       |  62518 |   480.45
+ 2012 | Oceania       |  68012 |   476.25
+ 2013 | Oceania       |  68150 |   379.38
+ 2008 | South America |   9021 |   213.52
+ 2009 | South America |   8598 |   578.05
+ 2010 | South America |  11286 |   625.88
+ 2011 | South America |  13246 |   616.96
+ 2012 | South America |  13083 |   210.08
+ 2013 | South America |  13080 |   209.76
+(36 rows)
+
+--- Query 2: Q1_2
+SELECT DISTINCT year, continent, MAX(maxgrowth) AS maxgrowth, SUM(amount) AS emission
+FROM Q1Maxgrowth
+NATURAL INNER JOIN
+	(SELECT year, continent, gdpGrowthPerCapita AS maxgrowth, amount FROM Q1info) AS Temp
+GROUP BY year, continent, maxgrowth
+ORDER BY continent, year;
+
+year |   continent   | maxgrowth | emission 
+------+---------------+-----------+----------
+ 2008 | Africa        |       7.1 |    37.88
+ 2009 | Africa        |       2.7 |   132.61
+ 2010 | Africa        |       3.9 |    28.76
+ 2011 | Africa        |       1.7 |    327.4
+ 2012 | Africa        |     121.8 |    28.61
+ 2013 | Africa        |       1.3 |     41.5
+ 2008 | Asia          |       9.1 |  4043.19
+ 2009 | Asia          |       8.9 |  4305.34
+ 2010 | Asia          |      10.1 |  4705.39
+ 2011 | Asia          |       9.0 |  5196.72
+ 2012 | Asia          |       7.3 |   5331.7
+ 2013 | Asia          |       7.2 |  5632.13
+ 2008 | Europe        |       5.2 |  1155.89
+ 2009 | Europe        |      -3.4 |   168.84
+ 2010 | Europe        |       5.1 |    21.97
+ 2011 | Europe        |       5.9 |   429.16
+ 2012 | Europe        |       3.8 |  1204.04
+ 2013 | Europe        |       1.5 |  1436.31
+ 2008 | North America |      -0.1 |   290.39
+ 2009 | North America |      -3.4 |  3008.27
+ 2010 | North America |       3.6 |   316.12
+ 2011 | North America |       2.2 |   329.03
+ 2012 | North America |       2.2 |   336.39
+ 2013 | North America |       1.3 |   287.16
+ 2008 | Oceania       |       1.6 |   393.36
+ 2009 | Oceania       |      -0.1 |   408.91
+ 2010 | Oceania       |       0.5 |   377.99
+ 2011 | Oceania       |       1.6 |    54.25
+ 2012 | Oceania       |       2.1 |   476.25
+ 2013 | Oceania       |       1.8 |    54.85
+ 2008 | South America |       4.1 |   588.77
+ 2009 | South America |      -1.1 |   578.05
+ 2010 | South America |       9.3 |   198.05
+ 2011 | South America |       4.8 |   203.21
+ 2012 | South America |       1.0 |   637.55
+ 2013 | South America |       2.1 |    658.1
+ (36 rows)
+
+--- Query 3: Q1_3
+SELECT DISTINCT year, continent, MAX(maxincome) AS maxincome, SUM(amount) AS emission
+FROM Q1Maxincome
+NATURAL INNER JOIN
+	(SELECT year, continent, incomepercapita AS maxincome, amount FROM Q1info) AS Temp
+GROUP BY year, continent, maxincome
+ORDER BY continent, maxincome;
+
+year |   continent   | maxincome | emission 
+------+---------------+-----------+----------
+ 2011 | Africa        |    6382.1 |    327.4
+ 2009 | Africa        |    7719.8 |    28.23
+ 2013 | Africa        |    8303.5 |    30.55
+ 2010 | Africa        |    8698.2 |    28.76
+ 2012 | Africa        |    9343.5 |    28.61
+ 2008 | Africa        |    9813.8 |    27.51
+ 2008 | Asia          |   30964.3 |   563.02
+ 2009 | Asia          |   31694.2 |    520.5
+ 2013 | Asia          |   32486.5 |   679.14
+ 2010 | Asia          |   35065.8 |   556.41
+ 2011 | Asia          |   38100.8 |   609.42
+ 2012 | Asia          |   38602.1 |   658.48
+ 2009 | Europe        |   39494.7 |    19.46
+ 2010 | Europe        |   45157.2 |    21.97
+ 2008 | Europe        |   48492.5 |    19.58
+ 2012 | Europe        |   49157.5 |    18.41
+ 2011 | Europe        |   51553.5 |     19.3
+ 2013 | Europe        |   51720.7 |    17.88
+ 2009 | North America |   39044.6 |  3008.27
+ 2008 | North America |   40068.2 |  3247.41
+ 2010 | North America |   41003.1 |  3131.47
+ 2011 | North America |   42635.9 |  3003.33
+ 2012 | North America |   44736.3 |  2872.18
+ 2013 | North America |   45675.5 |  2885.76
+ 2009 | Oceania       |   33071.6 |   408.91
+ 2008 | Oceania       |   37434.4 |   393.36
+ 2010 | Oceania       |   40009.7 |   377.99
+ 2011 | Oceania       |     47826 |   480.45
+ 2012 | Oceania       |   52858.4 |   476.25
+ 2013 | Oceania       |   53239.2 |   379.38
+ 2009 | South America |    7274.2 |   578.05
+ 2008 | South America |    7634.1 |   213.52
+ 2010 | South America |    9343.4 |   625.88
+ 2011 | South America |   10986.5 |   616.96
+ 2013 | South America |   11123.5 |   209.76
+ 2012 | South America |     11132 |   210.08
+(36 rows)
+
+--- Query 4: Q1_4
+SELECT country, year, SUM(amount) AS emission, MAX(value) AS temperature
+FROM Q1info
+GROUP BY country, year
+ORDER BY country, year;
+
+country     | year | emission | temperature 
+----------------+------+----------+-------------
+ Angola         | 2008 |    37.88 |       19.35
+ Angola         | 2009 |    38.93 |       18.83
+ Angola         | 2010 |    40.77 |       19.98
+ Angola         | 2011 |    41.81 |        18.9
+ Angola         | 2012 |    39.64 |       18.89
+ Angola         | 2013 |     41.5 |       19.66
+ Argentina      | 2008 |   213.52 |        9.97
+ Argentina      | 2009 |   203.71 |         7.2
+ Argentina      | 2010 |   198.05 |        6.96
+ Argentina      | 2011 |   203.21 |        7.66
+ Argentina      | 2012 |   210.08 |        6.98
+ Argentina      | 2013 |   209.76 |        8.34
+ Australia      | 2008 |   393.36 |       14.78
+ Australia      | 2009 |   408.91 |       15.19
+ Australia      | 2010 |   377.99 |       15.32
+ Australia      | 2011 |   480.45 |       15.03
+ Australia      | 2012 |   476.25 |       14.03
+ Australia      | 2013 |   379.38 |       15.93
+ Brazil         | 2008 |   588.77 |       24.53
+ Brazil         | 2009 |   578.05 |       24.38
+ Brazil         | 2010 |   625.88 |       24.27
+ Brazil         | 2011 |   616.96 |        24.4
+ Brazil         | 2012 |   637.55 |       24.17
+ Brazil         | 2013 |    658.1 |        24.2
+ Canada         | 2008 |   290.39 |       13.64
+ Canada         | 2009 |   276.85 |       13.06
+ Canada         | 2010 |   283.82 |        14.3
+ Canada         | 2011 |   281.94 |       14.08
+ Canada         | 2012 |   285.12 |        14.8
+ Canada         | 2013 |   287.16 |       13.33
+ China          | 2008 |  4043.19 |       20.28
+ China          | 2009 |  4305.34 |       20.25
+ China          | 2010 |  4705.39 |       21.04
+ China          | 2011 |  5196.72 |       20.45
+ China          | 2012 |   5331.7 |       20.39
+ China          | 2013 |  5632.13 |       20.48
+ Egypt          | 2008 |   132.82 |       31.34
+ Egypt          | 2009 |   132.61 |       31.63
+ Egypt          | 2010 |   132.28 |       31.85
+ Egypt          | 2011 |   137.52 |       31.82
+ Egypt          | 2012 |   144.56 |       31.64
+ Egypt          | 2013 |   145.71 |       30.11
+ France         | 2008 |   173.53 |       19.96
+ France         | 2009 |   168.84 |       20.56
+ France         | 2010 |   170.77 |       21.57
+ France         | 2011 |   154.36 |       18.84
+ France         | 2012 |   156.32 |       19.71
+ France         | 2013 |   154.47 |       21.82
+ Germany        | 2008 |   451.51 |       18.46
+ Germany        | 2009 |   420.95 |        18.5
+ Germany        | 2010 |   438.77 |       20.75
+ Germany        | 2011 |   429.16 |       16.54
+ Germany        | 2012 |   439.01 |       17.83
+ Germany        | 2013 |   444.36 |       19.76
+ India          | 2008 |  1480.59 |       27.15
+ India          | 2009 |  1545.86 |       27.61
+ India          | 2010 |  1586.99 |       27.43
+ India          | 2011 |  1643.65 |       27.21
+ India          | 2012 |  1767.66 |        27.7
+ India          | 2013 |  1780.73 |       27.01
+ Indonesia      | 2008 |   441.03 |        25.6
+ Indonesia      | 2009 |    448.6 |        26.1
+ Indonesia      | 2010 |   449.46 |       26.23
+ Indonesia      | 2011 |   463.03 |       26.02
+ Indonesia      | 2012 |   461.96 |        25.8
+ Indonesia      | 2013 |   461.95 |        25.9
+ Italy          | 2008 |   226.97 |       23.07
+ Italy          | 2009 |   199.79 |       23.51
+ Italy          | 2010 |   205.38 |       24.17
+ Italy          | 2011 |   203.03 |       22.16
+ Italy          | 2012 |   195.66 |       24.05
+ Italy          | 2013 |   172.45 |       23.65
+ Japan          | 2008 |   563.02 |       24.06
+ Japan          | 2009 |    520.5 |       22.53
+ Japan          | 2010 |   556.41 |       24.28
+ Japan          | 2011 |   609.42 |       24.04
+ Japan          | 2012 |   658.48 |       23.65
+ Japan          | 2013 |   679.14 |       24.29
+ Libya          | 2008 |    27.51 |       31.72
+ Libya          | 2009 |    28.23 |        31.3
+ Libya          | 2010 |    28.76 |       31.38
+ Libya          | 2011 |    22.89 |        30.9
+ Libya          | 2012 |    28.61 |       31.05
+ Libya          | 2013 |    30.55 |       30.55
+ Malaysia       | 2008 |   129.38 |       26.18
+ Malaysia       | 2009 |   125.34 |       26.83
+ Malaysia       | 2010 |   138.83 |       26.46
+ Malaysia       | 2011 |   140.54 |       26.93
+ Malaysia       | 2012 |    140.6 |       26.52
+ Malaysia       | 2013 |   145.54 |       26.72
+ Mexico         | 2008 |   302.49 |       24.78
+ Mexico         | 2009 |   312.04 |       26.52
+ Mexico         | 2010 |   316.12 |        25.1
+ Mexico         | 2011 |   329.03 |       25.61
+ Mexico         | 2012 |   336.39 |        25.3
+ Mexico         | 2013 |   321.69 |        25.3
+ New Zealand    | 2008 |    56.92 |        6.58
+ New Zealand    | 2009 |    55.12 |        5.61
+ New Zealand    | 2010 |    54.42 |        5.82
+ New Zealand    | 2011 |    54.25 |        5.97
+ New Zealand    | 2012 |    56.14 |        6.03
+ New Zealand    | 2013 |    54.85 |        6.75
+ Russia         | 2008 |  1155.89 |       15.84
+ Russia         | 2009 |  1084.07 |       15.46
+ Russia         | 2010 |  1148.78 |       16.89
+ Russia         | 2011 |  1210.73 |       16.36
+ Russia         | 2012 |  1204.04 |       16.74
+ Russia         | 2013 |   1169.4 |       16.05
+ South Africa   | 2008 |   345.79 |       11.65
+ South Africa   | 2009 |   309.92 |       10.67
+ South Africa   | 2010 |   340.56 |       12.38
+ South Africa   | 2011 |    327.4 |       10.07
+ South Africa   | 2012 |   336.95 |       10.95
+ South Africa   | 2013 |   334.39 |       12.17
+ South Korea    | 2008 |    293.4 |       26.09
+ South Korea    | 2009 |   314.31 |       23.66
+ South Korea    | 2010 |   348.36 |       25.56
+ South Korea    | 2011 |   371.48 |        25.1
+ South Korea    | 2012 |   376.01 |       25.57
+ South Korea    | 2013 |   370.43 |       26.57
+ Spain          | 2008 |   171.51 |       22.95
+ Spain          | 2009 |   156.78 |       23.94
+ Spain          | 2010 |   140.54 |       24.86
+ Spain          | 2011 |    152.8 |        22.9
+ Spain          | 2012 |   159.77 |       23.24
+ Spain          | 2013 |   136.92 |       24.54
+ Sweden         | 2008 |    19.58 |       15.58
+ Sweden         | 2009 |    19.46 |        15.1
+ Sweden         | 2010 |    21.97 |       16.53
+ Sweden         | 2011 |     19.3 |       16.33
+ Sweden         | 2012 |    18.41 |       14.37
+ Sweden         | 2013 |    17.88 |       15.26
+ United Kingdom | 2008 |   319.58 |       14.94
+ United Kingdom | 2009 |   286.99 |       14.79
+ United Kingdom | 2010 |   287.37 |       15.25
+ United Kingdom | 2011 |      273 |       13.97
+ United Kingdom | 2012 |    285.5 |       13.75
+ United Kingdom | 2013 |   266.91 |       16.26
+ United States  | 2008 |  3247.41 |       21.69
+ United States  | 2009 |  3008.27 |       21.46
+ United States  | 2010 |  3131.47 |       22.08
+ United States  | 2011 |  3003.33 |       22.72
+ United States  | 2012 |  2872.18 |       23.01
+ United States  | 2013 |  2885.76 |       22.07
+(144 rows)
+

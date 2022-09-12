@@ -1,0 +1,576 @@
+Angola,Africa,2008,Waste,1.23
+Angola,Africa,2009,Waste,1.28
+Angola,Africa,2010,Waste,1.33
+Angola,Africa,2011,Waste,1.38
+Angola,Africa,2012,Waste,1.43
+Angola,Africa,2013,Waste,1.48
+Angola,Africa,2014,Waste,1.53
+Angola,Africa,2015,Waste,1.58
+Angola,Africa,2008,Agriculture,35.05
+Angola,Africa,2009,Agriculture,35.15
+Angola,Africa,2010,Agriculture,36.84
+Angola,Africa,2011,Agriculture,37.93
+Angola,Africa,2012,Agriculture,36.11
+Angola,Africa,2013,Agriculture,37.42
+Angola,Africa,2014,Agriculture,35.93
+Angola,Africa,2015,Agriculture,37.66
+Angola,Africa,2008,Electricity,1.6
+Angola,Africa,2009,Electricity,2.5
+Angola,Africa,2010,Electricity,2.6
+Angola,Africa,2011,Electricity,2.5
+Angola,Africa,2012,Electricity,2.1
+Angola,Africa,2013,Electricity,2.6
+Angola,Africa,2014,Electricity,3.8
+Angola,Africa,2015,Electricity,4.1
+Argentina,South America,2008,Waste,18.59
+Argentina,South America,2009,Waste,18.89
+Argentina,South America,2010,Waste,19.19
+Argentina,South America,2011,Waste,19.51
+Argentina,South America,2012,Waste,19.82
+Argentina,South America,2013,Waste,20.13
+Argentina,South America,2014,Waste,20.45
+Argentina,South America,2015,Waste,20.76
+Argentina,South America,2008,Agriculture,134.13
+Argentina,South America,2009,Agriculture,123.72
+Argentina,South America,2010,Agriculture,116.46
+Argentina,South America,2011,Agriculture,116.8
+Argentina,South America,2012,Agriculture,118.66
+Argentina,South America,2013,Agriculture,121.83
+Argentina,South America,2014,Agriculture,123.75
+Argentina,South America,2015,Agriculture,122.64
+Argentina,South America,2008,Electricity,60.8
+Argentina,South America,2009,Electricity,61.1
+Argentina,South America,2010,Electricity,62.4
+Argentina,South America,2011,Electricity,66.9
+Argentina,South America,2012,Electricity,71.6
+Argentina,South America,2013,Electricity,67.8
+Argentina,South America,2014,Electricity,70
+Argentina,South America,2015,Electricity,72.8
+Australia,Oceania,2008,Waste,14.87
+Australia,Oceania,2009,Waste,14.8
+Australia,Oceania,2010,Waste,15.12
+Australia,Oceania,2011,Waste,14.49
+Australia,Oceania,2012,Waste,12.84
+Australia,Oceania,2013,Waste,12.02
+Australia,Oceania,2014,Waste,12.18
+Australia,Oceania,2015,Waste,11.54
+Australia,Oceania,2008,Agriculture,136.59
+Australia,Oceania,2009,Agriculture,143.41
+Australia,Oceania,2010,Agriculture,117.87
+Australia,Oceania,2011,Agriculture,227.56
+Australia,Oceania,2012,Agriculture,228.01
+Australia,Oceania,2013,Agriculture,140.26
+Australia,Oceania,2014,Agriculture,162.86
+Australia,Oceania,2015,Agriculture,153.46
+Australia,Oceania,2008,Electricity,241.9
+Australia,Oceania,2009,Electricity,250.7
+Australia,Oceania,2010,Electricity,245
+Australia,Oceania,2011,Electricity,238.4
+Australia,Oceania,2012,Electricity,235.4
+Australia,Oceania,2013,Electricity,227.1
+Australia,Oceania,2014,Electricity,217.8
+Australia,Oceania,2015,Electricity,223
+Brazil,South America,2008,Waste,59.01
+Brazil,South America,2009,Waste,60.51
+Brazil,South America,2010,Waste,63.72
+Brazil,South America,2011,Waste,64.62
+Brazil,South America,2012,Waste,65.52
+Brazil,South America,2013,Waste,66.42
+Brazil,South America,2014,Waste,67.32
+Brazil,South America,2015,Waste,68.22
+Brazil,South America,2008,Agriculture,461.46
+Brazil,South America,2009,Agriculture,460.24
+Brazil,South America,2010,Agriculture,493.16
+Brazil,South America,2011,Agriculture,489.44
+Brazil,South America,2012,Agriculture,490.33
+Brazil,South America,2013,Agriculture,485.78
+Brazil,South America,2014,Agriculture,495.52
+Brazil,South America,2015,Agriculture,497.1
+Brazil,South America,2008,Electricity,68.3
+Brazil,South America,2009,Electricity,57.3
+Brazil,South America,2010,Electricity,69
+Brazil,South America,2011,Electricity,62.9
+Brazil,South America,2012,Electricity,81.7
+Brazil,South America,2013,Electricity,105.9
+Brazil,South America,2014,Electricity,125.1
+Brazil,South America,2015,Electricity,119.9
+Canada,North America,2008,Waste,18.82
+Canada,North America,2009,Waste,18.56
+Canada,North America,2010,Waste,17.67
+Canada,North America,2011,Waste,17.64
+Canada,North America,2012,Waste,17.36
+Canada,North America,2013,Waste,17.4
+Canada,North America,2014,Waste,17.13
+Canada,North America,2015,Waste,17.46
+Canada,North America,2008,Agriculture,56.57
+Canada,North America,2009,Agriculture,54.49
+Canada,North America,2010,Agriculture,54.95
+Canada,North America,2011,Agriculture,56.4
+Canada,North America,2012,Agriculture,58.76
+Canada,North America,2013,Agriculture,59.26
+Canada,North America,2014,Agriculture,58.17
+Canada,North America,2015,Agriculture,57.58
+Canada,North America,2008,Electricity,215
+Canada,North America,2009,Electricity,203.8
+Canada,North America,2010,Electricity,211.2
+Canada,North America,2011,Electricity,207.9
+Canada,North America,2012,Electricity,209
+Canada,North America,2013,Electricity,210.5
+Canada,North America,2014,Electricity,210.2
+Canada,North America,2015,Electricity,211.2
+China,Asia,2008,Waste,140.39
+China,Asia,2009,Waste,146.41
+China,Asia,2010,Waste,152.44
+China,Asia,2011,Waste,158.46
+China,Asia,2012,Waste,164.48
+China,Asia,2013,Waste,169.55
+China,Asia,2014,Waste,174.62
+China,Asia,2015,Waste,179.68
+China,Asia,2008,Agriculture,692.8
+China,Asia,2009,Agriculture,700.73
+China,Asia,2010,Agriculture,711.25
+China,Asia,2011,Agriculture,709.96
+China,Asia,2012,Agriculture,711.82
+China,Asia,2013,Agriculture,714.78
+China,Asia,2014,Agriculture,716.93
+China,Asia,2015,Agriculture,727.46
+China,Asia,2008,Electricity,3210
+China,Asia,2009,Electricity,3458.2
+China,Asia,2010,Electricity,3841.7
+China,Asia,2011,Electricity,4328.3
+China,Asia,2012,Electricity,4455.4
+China,Asia,2013,Electricity,4747.8
+China,Asia,2014,Electricity,4641.5
+China,Asia,2015,Electricity,4586.2
+Egypt,Africa,2008,Waste,22.66
+Egypt,Africa,2009,Waste,23.12
+Egypt,Africa,2010,Waste,23.58
+Egypt,Africa,2011,Waste,24.12
+Egypt,Africa,2012,Waste,24.66
+Egypt,Africa,2013,Waste,25.2
+Egypt,Africa,2014,Waste,25.73
+Egypt,Africa,2015,Waste,26.27
+Egypt,Africa,2008,Agriculture,35.36
+Egypt,Africa,2009,Agriculture,30.69
+Egypt,Africa,2010,Agriculture,30.9
+Egypt,Africa,2011,Agriculture,32
+Egypt,Africa,2012,Agriculture,32.2
+Egypt,Africa,2013,Agriculture,32.31
+Egypt,Africa,2014,Agriculture,32.26
+Egypt,Africa,2015,Agriculture,31.61
+Egypt,Africa,2008,Electricity,74.8
+Egypt,Africa,2009,Electricity,78.8
+Egypt,Africa,2010,Electricity,77.8
+Egypt,Africa,2011,Electricity,81.4
+Egypt,Africa,2012,Electricity,87.7
+Egypt,Africa,2013,Electricity,88.2
+Egypt,Africa,2014,Electricity,92.4
+Egypt,Africa,2015,Electricity,97.8
+France,Europe,2008,Waste,19.6
+France,Europe,2009,Waste,19.04
+France,Europe,2010,Waste,19.09
+France,Europe,2011,Waste,18.56
+France,Europe,2012,Waste,17.92
+France,Europe,2013,Waste,17.42
+France,Europe,2014,Waste,16.86
+France,Europe,2015,Waste,15.98
+France,Europe,2008,Agriculture,78.23
+France,Europe,2009,Agriculture,76.2
+France,Europe,2010,Agriculture,76.28
+France,Europe,2011,Agriculture,74.2
+France,Europe,2012,Agriculture,74.6
+France,Europe,2013,Agriculture,75.65
+France,Europe,2014,Agriculture,75.78
+France,Europe,2015,Agriculture,76.53
+France,Europe,2008,Electricity,75.7
+France,Europe,2009,Electricity,73.6
+France,Europe,2010,Electricity,75.4
+France,Europe,2011,Electricity,61.6
+France,Europe,2012,Electricity,63.8
+France,Europe,2013,Electricity,61.4
+France,Europe,2014,Electricity,46.7
+France,Europe,2015,Electricity,50.3
+Germany,Europe,2008,Waste,16.17
+Germany,Europe,2009,Waste,14.93
+Germany,Europe,2010,Waste,13.81
+Germany,Europe,2011,Waste,12.94
+Germany,Europe,2012,Waste,12.11
+Germany,Europe,2013,Waste,11.34
+Germany,Europe,2014,Waste,10.68
+Germany,Europe,2015,Waste,10.07
+Germany,Europe,2008,Agriculture,62.94
+Germany,Europe,2009,Agriculture,62.92
+Germany,Europe,2010,Agriculture,63.36
+Germany,Europe,2011,Agriculture,62.02
+Germany,Europe,2012,Agriculture,62.3
+Germany,Europe,2013,Agriculture,63.12
+Germany,Europe,2014,Agriculture,64.52
+Germany,Europe,2015,Agriculture,63.31
+Germany,Europe,2008,Electricity,372.4
+Germany,Europe,2009,Electricity,343.1
+Germany,Europe,2010,Electricity,361.6
+Germany,Europe,2011,Electricity,354.2
+Germany,Europe,2012,Electricity,364.6
+Germany,Europe,2013,Electricity,369.9
+Germany,Europe,2014,Electricity,350.3
+Germany,Europe,2015,Electricity,346.3
+India,Asia,2008,Waste,71.8
+India,Asia,2009,Waste,73.07
+India,Asia,2010,Waste,74.34
+India,Asia,2011,Waste,75.45
+India,Asia,2012,Waste,76.56
+India,Asia,2013,Waste,77.67
+India,Asia,2014,Waste,78.78
+India,Asia,2015,Waste,79.89
+India,Asia,2008,Agriculture,687.49
+India,Asia,2009,Agriculture,681.79
+India,Asia,2010,Agriculture,691.65
+India,Asia,2011,Agriculture,701.9
+India,Asia,2012,Agriculture,696
+India,Asia,2013,Agriculture,698.36
+India,Asia,2014,Agriculture,699.8
+India,Asia,2015,Agriculture,700.1
+India,Asia,2008,Electricity,721.3
+India,Asia,2009,Electricity,791
+India,Asia,2010,Electricity,821
+India,Asia,2011,Electricity,866.3
+India,Asia,2012,Electricity,995.1
+India,Asia,2013,Electricity,1004.7
+India,Asia,2014,Electricity,1117
+India,Asia,2015,Electricity,1101.8
+Indonesia,Asia,2008,Waste,141.17
+Indonesia,Asia,2009,Waste,134.72
+Indonesia,Asia,2010,Waste,128.27
+Indonesia,Asia,2011,Waste,121.81
+Indonesia,Asia,2012,Waste,115.36
+Indonesia,Asia,2013,Waste,120.06
+Indonesia,Asia,2014,Waste,124.76
+Indonesia,Asia,2015,Waste,127.28
+Indonesia,Asia,2008,Agriculture,158.76
+Indonesia,Asia,2009,Agriculture,165.98
+Indonesia,Asia,2010,Agriculture,169.19
+Indonesia,Asia,2011,Agriculture,172.42
+Indonesia,Asia,2012,Agriculture,177.8
+Indonesia,Asia,2013,Agriculture,173.69
+Indonesia,Asia,2014,Agriculture,179.35
+Indonesia,Asia,2015,Agriculture,182.5
+Indonesia,Asia,2008,Electricity,141.1
+Indonesia,Asia,2009,Electricity,147.9
+Indonesia,Asia,2010,Electricity,152
+Indonesia,Asia,2011,Electricity,168.8
+Indonesia,Asia,2012,Electricity,168.8
+Indonesia,Asia,2013,Electricity,168.2
+Indonesia,Asia,2014,Electricity,193.8
+Indonesia,Asia,2015,Electricity,195.5
+Italy,Europe,2008,Waste,19.65
+Italy,Europe,2009,Waste,19.74
+Italy,Europe,2010,Waste,19.55
+Italy,Europe,2011,Waste,18.9
+Italy,Europe,2012,Waste,18.98
+Italy,Europe,2013,Waste,17.74
+Italy,Europe,2014,Waste,17.64
+Italy,Europe,2015,Waste,17.82
+Italy,Europe,2008,Agriculture,33.82
+Italy,Europe,2009,Agriculture,32.65
+Italy,Europe,2010,Agriculture,32.73
+Italy,Europe,2011,Agriculture,32.03
+Italy,Europe,2012,Agriculture,32.68
+Italy,Europe,2013,Agriculture,32.11
+Italy,Europe,2014,Agriculture,31.73
+Italy,Europe,2015,Agriculture,31.97
+Italy,Europe,2008,Electricity,173.5
+Italy,Europe,2009,Electricity,147.4
+Italy,Europe,2010,Electricity,153.1
+Italy,Europe,2011,Electricity,152.1
+Italy,Europe,2012,Electricity,144
+Italy,Europe,2013,Electricity,122.6
+Italy,Europe,2014,Electricity,113.7
+Italy,Europe,2015,Electricity,120.9
+Japan,Asia,2008,Waste,9.3
+Japan,Asia,2009,Waste,8.86
+Japan,Asia,2010,Waste,8.49
+Japan,Asia,2011,Waste,8.26
+Japan,Asia,2012,Waste,7.95
+Japan,Asia,2013,Waste,7.74
+Japan,Asia,2014,Waste,7.46
+Japan,Asia,2015,Waste,7.22
+Japan,Asia,2008,Agriculture,24.12
+Japan,Asia,2009,Agriculture,23.84
+Japan,Asia,2010,Agriculture,23.82
+Japan,Asia,2011,Agriculture,22.76
+Japan,Asia,2012,Agriculture,22.23
+Japan,Asia,2013,Agriculture,22.6
+Japan,Asia,2014,Agriculture,22.44
+Japan,Asia,2015,Agriculture,21.62
+Japan,Asia,2008,Electricity,529.6
+Japan,Asia,2009,Electricity,487.8
+Japan,Asia,2010,Electricity,524.1
+Japan,Asia,2011,Electricity,578.4
+Japan,Asia,2012,Electricity,628.3
+Japan,Asia,2013,Electricity,648.8
+Japan,Asia,2014,Electricity,625.1
+Japan,Asia,2015,Electricity,606.4
+Libya,Africa,2008,Waste,1.46
+Libya,Africa,2009,Waste,1.49
+Libya,Africa,2010,Waste,1.52
+Libya,Africa,2011,Waste,1.54
+Libya,Africa,2012,Waste,1.55
+Libya,Africa,2013,Waste,1.57
+Libya,Africa,2014,Waste,1.58
+Libya,Africa,2015,Waste,1.6
+Libya,Africa,2008,Agriculture,2.75
+Libya,Africa,2009,Agriculture,2.84
+Libya,Africa,2010,Agriculture,2.94
+Libya,Africa,2011,Agriculture,2.95
+Libya,Africa,2012,Agriculture,2.96
+Libya,Africa,2013,Agriculture,2.98
+Libya,Africa,2014,Agriculture,2.87
+Libya,Africa,2015,Agriculture,2.83
+Libya,Africa,2008,Electricity,23.3
+Libya,Africa,2009,Electricity,23.9
+Libya,Africa,2010,Electricity,24.3
+Libya,Africa,2011,Electricity,18.4
+Libya,Africa,2012,Electricity,24.1
+Libya,Africa,2013,Electricity,26
+Libya,Africa,2014,Electricity,24.4
+Libya,Africa,2015,Electricity,24.3
+Malaysia,Asia,2008,Waste,15.88
+Malaysia,Asia,2009,Waste,16.55
+Malaysia,Asia,2010,Waste,17.04
+Malaysia,Asia,2011,Waste,17.5
+Malaysia,Asia,2012,Waste,17.92
+Malaysia,Asia,2013,Waste,18.65
+Malaysia,Asia,2014,Waste,19.25
+Malaysia,Asia,2015,Waste,19.6
+Malaysia,Asia,2008,Agriculture,16.3
+Malaysia,Asia,2009,Agriculture,16.89
+Malaysia,Asia,2010,Agriculture,15.29
+Malaysia,Asia,2011,Agriculture,12.54
+Malaysia,Asia,2012,Agriculture,13.78
+Malaysia,Asia,2013,Agriculture,13.09
+Malaysia,Asia,2014,Agriculture,13.31
+Malaysia,Asia,2015,Agriculture,13.4
+Malaysia,Asia,2008,Electricity,97.2
+Malaysia,Asia,2009,Electricity,91.9
+Malaysia,Asia,2010,Electricity,106.5
+Malaysia,Asia,2011,Electricity,110.5
+Malaysia,Asia,2012,Electricity,108.9
+Malaysia,Asia,2013,Electricity,113.8
+Malaysia,Asia,2014,Electricity,119.2
+Malaysia,Asia,2015,Electricity,123.5
+Mexico,North America,2008,Waste,28.53
+Mexico,North America,2009,Waste,29.56
+Mexico,North America,2010,Waste,30.97
+Mexico,North America,2011,Waste,32.8
+Mexico,North America,2012,Waste,32.89
+Mexico,North America,2013,Waste,26.29
+Mexico,North America,2014,Waste,35.26
+Mexico,North America,2015,Waste,44.22
+Mexico,North America,2008,Agriculture,87.56
+Mexico,North America,2009,Agriculture,88.88
+Mexico,North America,2010,Agriculture,89.75
+Mexico,North America,2011,Agriculture,91.73
+Mexico,North America,2012,Agriculture,91.1
+Mexico,North America,2013,Agriculture,93.9
+Mexico,North America,2014,Agriculture,89.88
+Mexico,North America,2015,Agriculture,90.77
+Mexico,North America,2008,Electricity,186.4
+Mexico,North America,2009,Electricity,193.6
+Mexico,North America,2010,Electricity,195.4
+Mexico,North America,2011,Electricity,204.5
+Mexico,North America,2012,Electricity,212.4
+Mexico,North America,2013,Electricity,201.5
+Mexico,North America,2014,Electricity,192
+Mexico,North America,2015,Electricity,193.7
+New Zealand,Oceania,2008,Waste,4.28
+New Zealand,Oceania,2009,Waste,4.23
+New Zealand,Oceania,2010,Waste,4.13
+New Zealand,Oceania,2011,Waste,4.04
+New Zealand,Oceania,2012,Waste,3.99
+New Zealand,Oceania,2013,Waste,3.93
+New Zealand,Oceania,2014,Waste,3.9
+New Zealand,Oceania,2015,Waste,3.86
+New Zealand,Oceania,2008,Agriculture,41.64
+New Zealand,Oceania,2009,Agriculture,41.89
+New Zealand,Oceania,2010,Agriculture,41.79
+New Zealand,Oceania,2011,Agriculture,42.11
+New Zealand,Oceania,2012,Agriculture,42.85
+New Zealand,Oceania,2013,Agriculture,42.72
+New Zealand,Oceania,2014,Agriculture,43.16
+New Zealand,Oceania,2015,Agriculture,42.65
+New Zealand,Oceania,2008,Electricity,11
+New Zealand,Oceania,2009,Electricity,9
+New Zealand,Oceania,2010,Electricity,8.5
+New Zealand,Oceania,2011,Electricity,8.1
+New Zealand,Oceania,2012,Electricity,9.3
+New Zealand,Oceania,2013,Electricity,8.2
+New Zealand,Oceania,2014,Electricity,7.4
+New Zealand,Oceania,2015,Electricity,7.2
+Russia,Europe,2008,Waste,94.35
+Russia,Europe,2009,Waste,96.08
+Russia,Europe,2010,Waste,98.16
+Russia,Europe,2011,Waste,100.95
+Russia,Europe,2012,Waste,103.62
+Russia,Europe,2013,Waste,106.44
+Russia,Europe,2014,Waste,110.49
+Russia,Europe,2015,Waste,113.19
+Russia,Europe,2008,Agriculture,99.94
+Russia,Europe,2009,Agriculture,96.49
+Russia,Europe,2010,Agriculture,94.72
+Russia,Europe,2011,Agriculture,94.58
+Russia,Europe,2012,Agriculture,92.72
+Russia,Europe,2013,Agriculture,93.66
+Russia,Europe,2014,Agriculture,94.67
+Russia,Europe,2015,Agriculture,93.54
+Russia,Europe,2008,Electricity,961.6
+Russia,Europe,2009,Electricity,891.5
+Russia,Europe,2010,Electricity,955.9
+Russia,Europe,2011,Electricity,1015.2
+Russia,Europe,2012,Electricity,1007.7
+Russia,Europe,2013,Electricity,969.3
+Russia,Europe,2014,Electricity,907.5
+Russia,Europe,2015,Electricity,879.8
+South Africa,Africa,2008,Waste,19.7
+South Africa,Africa,2009,Waste,20.59
+South Africa,Africa,2010,Waste,21.48
+South Africa,Africa,2011,Waste,21.91
+South Africa,Africa,2012,Waste,22.34
+South Africa,Africa,2013,Waste,22.77
+South Africa,Africa,2014,Waste,23.2
+South Africa,Africa,2015,Waste,23.63
+South Africa,Africa,2008,Agriculture,32.69
+South Africa,Africa,2009,Agriculture,32.93
+South Africa,Africa,2010,Agriculture,32.78
+South Africa,Africa,2011,Agriculture,32.59
+South Africa,Africa,2012,Agriculture,33.01
+South Africa,Africa,2013,Agriculture,32.12
+South Africa,Africa,2014,Agriculture,32.33
+South Africa,Africa,2015,Agriculture,30.97
+South Africa,Africa,2008,Electricity,293.4
+South Africa,Africa,2009,Electricity,256.4
+South Africa,Africa,2010,Electricity,286.3
+South Africa,Africa,2011,Electricity,272.9
+South Africa,Africa,2012,Electricity,281.6
+South Africa,Africa,2013,Electricity,279.5
+South Africa,Africa,2014,Electricity,292.7
+South Africa,Africa,2015,Electricity,273.4
+South Korea,Asia,2008,Waste,11.22
+South Korea,Asia,2009,Waste,11.36
+South Korea,Asia,2010,Waste,11.05
+South Korea,Asia,2011,Waste,10.87
+South Korea,Asia,2012,Waste,10.4
+South Korea,Asia,2013,Waste,10.32
+South Korea,Asia,2014,Waste,10.46
+South Korea,Asia,2015,Waste,10.21
+South Korea,Asia,2008,Agriculture,14.08
+South Korea,Asia,2009,Agriculture,14.15
+South Korea,Asia,2010,Agriculture,14.41
+South Korea,Asia,2011,Agriculture,14.01
+South Korea,Asia,2012,Agriculture,14.91
+South Korea,Asia,2013,Agriculture,14.21
+South Korea,Asia,2014,Agriculture,13.86
+South Korea,Asia,2015,Agriculture,14.04
+South Korea,Asia,2008,Electricity,268.1
+South Korea,Asia,2009,Electricity,288.8
+South Korea,Asia,2010,Electricity,322.9
+South Korea,Asia,2011,Electricity,346.6
+South Korea,Asia,2012,Electricity,350.7
+South Korea,Asia,2013,Electricity,345.9
+South Korea,Asia,2014,Electricity,343.6
+South Korea,Asia,2015,Electricity,351.4
+Spain,Europe,2008,Waste,12.91
+Spain,Europe,2009,Waste,14.18
+Spain,Europe,2010,Waste,13.15
+Spain,Europe,2011,Waste,13.72
+Spain,Europe,2012,Waste,13.55
+Spain,Europe,2013,Waste,13.17
+Spain,Europe,2014,Waste,12.3
+Spain,Europe,2015,Waste,13.07
+Spain,Europe,2008,Agriculture,38.5
+Spain,Europe,2009,Agriculture,38.8
+Spain,Europe,2010,Agriculture,39.19
+Spain,Europe,2011,Agriculture,37.78
+Spain,Europe,2012,Agriculture,36.92
+Spain,Europe,2013,Agriculture,37.85
+Spain,Europe,2014,Agriculture,39.34
+Spain,Europe,2015,Agriculture,40.34
+Spain,Europe,2008,Electricity,120.1
+Spain,Europe,2009,Electricity,103.8
+Spain,Europe,2010,Electricity,88.2
+Spain,Europe,2011,Electricity,101.3
+Spain,Europe,2012,Electricity,109.3
+Spain,Europe,2013,Electricity,85.9
+Spain,Europe,2014,Electricity,86.8
+Spain,Europe,2015,Electricity,100.4
+Sweden,Europe,2008,Waste,1.96
+Sweden,Europe,2009,Waste,1.86
+Sweden,Europe,2010,Waste,1.75
+Sweden,Europe,2011,Waste,1.63
+Sweden,Europe,2012,Waste,1.51
+Sweden,Europe,2013,Waste,1.43
+Sweden,Europe,2014,Waste,1.32
+Sweden,Europe,2015,Waste,1.23
+Sweden,Europe,2008,Agriculture,7.52
+Sweden,Europe,2009,Agriculture,7.2
+Sweden,Europe,2010,Agriculture,7.32
+Sweden,Europe,2011,Agriculture,7.37
+Sweden,Europe,2012,Agriculture,7.2
+Sweden,Europe,2013,Agriculture,7.25
+Sweden,Europe,2014,Agriculture,7.44
+Sweden,Europe,2015,Agriculture,7.4
+Sweden,Europe,2008,Electricity,10.1
+Sweden,Europe,2009,Electricity,10.4
+Sweden,Europe,2010,Electricity,12.9
+Sweden,Europe,2011,Electricity,10.3
+Sweden,Europe,2012,Electricity,9.7
+Sweden,Europe,2013,Electricity,9.2
+Sweden,Europe,2014,Electricity,9.1
+Sweden,Europe,2015,Electricity,9
+United Kingdom,Europe,2008,Waste,37.24
+United Kingdom,Europe,2009,Waste,33.18
+United Kingdom,Europe,2010,Waste,28.45
+United Kingdom,Europe,2011,Waste,26.25
+United Kingdom,Europe,2012,Waste,24.63
+United Kingdom,Europe,2013,Waste,20.93
+United Kingdom,Europe,2014,Waste,18.38
+United Kingdom,Europe,2015,Waste,17.3
+United Kingdom,Europe,2008,Agriculture,50.44
+United Kingdom,Europe,2009,Agriculture,49.81
+United Kingdom,Europe,2010,Agriculture,49.82
+United Kingdom,Europe,2011,Agriculture,49.45
+United Kingdom,Europe,2012,Agriculture,49.37
+United Kingdom,Europe,2013,Agriculture,49.98
+United Kingdom,Europe,2014,Agriculture,50.61
+United Kingdom,Europe,2015,Agriculture,50.66
+United Kingdom,Europe,2008,Electricity,231.9
+United Kingdom,Europe,2009,Electricity,204
+United Kingdom,Europe,2010,Electricity,209.1
+United Kingdom,Europe,2011,Electricity,197.3
+United Kingdom,Europe,2012,Electricity,211.5
+United Kingdom,Europe,2013,Electricity,196
+United Kingdom,Europe,2014,Electricity,170.8
+United Kingdom,Europe,2015,Electricity,150.7
+United States,North America,2008,Waste,150.22
+United States,North America,2009,Waste,147.45
+United States,North America,2010,Waste,148.27
+United States,North America,2011,Waste,139.23
+United States,North America,2012,Waste,140.31
+United States,North America,2013,Waste,136.43
+United States,North America,2014,Waste,136.1
+United States,North America,2015,Waste,135.2
+United States,North America,2008,Agriculture,377.59
+United States,North America,2009,Agriculture,371.72
+United States,North America,2010,Agriculture,373.6
+United States,North America,2011,Agriculture,375.4
+United States,North America,2012,Agriculture,371.67
+United States,North America,2013,Agriculture,370.83
+United States,North America,2014,Agriculture,370.75
+United States,North America,2015,Agriculture,370.36
+United States,North America,2008,Electricity,2719.6
+United States,North America,2009,Electricity,2489.1
+United States,North America,2010,Electricity,2609.6
+United States,North America,2011,Electricity,2488.7
+United States,North America,2012,Electricity,2360.2
+United States,North America,2013,Electricity,2378.5
+United States,North America,2014,Electricity,2376.2
+United States,North America,2015,Electricity,2234
